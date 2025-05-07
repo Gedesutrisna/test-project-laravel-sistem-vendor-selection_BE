@@ -85,7 +85,7 @@ composer install
 cp .env.example .env
 
 # 3. Atur database di .env
-DB_DATABASE=vendor_selection
+DB_DATABASE=vendor_db
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -119,4 +119,4 @@ php artisan serve
 
 - Arsitektur dipisah: Controller → Repository → Interface → Model
 - Validasi menggunakan FormRequest
-- Try-catch dan logging diterapkan di level Repository
+- Try-catch dan logging diterapkan
